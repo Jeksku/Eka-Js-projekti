@@ -10,7 +10,18 @@ var sekunnit = 23
 var minuuteiksi = tunnit * 60 + minuutit;
 var sekunneiksi = tunnit * 60 + minuutit + sekunnit * 60;
 
-alert ('Minun nimeni on' + ' ' + etunimi + ' ' + sukunimi + ' ' + 'ja ikäni on' + ' ' + ika + '.');
-alert ('Minun osoitteeni on' + ' ' + lahiosoite + ' ' + postinro + '. ' + 'Ja minun puhelinnumero on' + ' ' + puhelinnro + '.')
-alert ('Tänään on kulunut ' + minuuteiksi + ' minuuttia.');
-alert ('Tänään on kulunut ' + sekunneiski + ' sekunttia.');
+//alert ('Minun nimeni on' + ' ' + etunimi + ' ' + sukunimi + ' ' + 'ja ikäni on' + ' ' + ika + '.');
+//alert ('Minun osoitteeni on' + ' ' + lahiosoite + ' ' + postinro + '. ' + 'Ja minun puhelinnumero on' + ' ' + puhelinnro + '.')
+//alert ('Tänään on kulunut ' + minuuteiksi + ' minuuttia.');
+//alert ('Tänään on kulunut ' + sekunneiksi + 'sekunttia.');
+
+function laskeminuutit();
+{
+    var tun= document.getElementById('tunnit').Value;
+    var min= document.getElementById('minuutit').Value;
+    var laske= tun *60 + min;
+    tun = parseInt(tun);
+    min = parseInt(min);
+    document.write('Tähän mennessä tänään minuutteja on kulunut ' + laske + '.');
+}
+
