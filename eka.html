@@ -8,11 +8,14 @@
   <body>
     <h1>Tervetuloa</h1>
     <form>
-      <p>Anna tunnit: </p>
-      <input type= "text" id=tunnit value="">
-      <p>Anna minuutit: </p>
-      <input type= "text" id=minuutit value="">
-      <button type= "button" name= "laske minuutit" onclick= "laskeminuutit()">Laske minuutit</button>
+      <p>Anna 1. luku: </p>
+      <input type= "text" id="eka" value="">
+      <p>Anna 2. luku: </p>
+      <input type= "text" id="toka" value="">
+      <button type= "button" onclick ="vertaile()">Vertaile</button>
+      <button type= "button" onclick = "laskeYhteen()">Laske yhteen</button>
+      <button type= "button" onclick ="kerro()">Kerro</button>
+      <button type= "button" onclick ="jaa()">Jaa</button>
     </form>
   </body>
 </html>
