@@ -23,7 +23,7 @@ var sekunneiksi = tunnit * 60 + minuutit + sekunnit * 60;*/
     tun = parseInt(tun);
     min = parseInt(min);
     document.write('Tähän mennessä tänään minuutteja on kulunut ' + laske + '.');
-}
+}*/
 
 function vertaile()
 {
@@ -56,7 +56,7 @@ function jaa()
     luku1 = parseInt(document.getElementById('eka').value);
     luku2 = parseInt(document.getElementById('toka').value);
     document.write("Lukujen jako on: " + (luku1 / luku2));
-}*/
+}
 
 function JarjestaLuvut()
 {
@@ -66,5 +66,6 @@ function JarjestaLuvut()
     luku3 = parseInt(document.getElementById('kolmas').value);
     
 }
+
 
 
