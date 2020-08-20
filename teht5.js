@@ -12,6 +12,6 @@ function kaanna()
     } 
     else
     {
-        document.write ("Hola Mundo")
+        document.write ("Hola Mundo");
     }
 }
