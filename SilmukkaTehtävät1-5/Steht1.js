@@ -1,10 +1,10 @@
 function ParillinenLuku(){
     var kArvo = parseInt(document.getElementById('Pluku').value);
-    var Jono = "<p>";
+    var jono = "<p>";
         for(var i = 2; i <= kArvo; i= i+2){
-            Jono+=i;
-            Jono+=" ";
+            jono+=i;
+            jono+=" ";
         }
-    Jono+="</p>"
-    document.getElementById('Jono').innerHTML = Jono;
+    jono+="</p>"
+    document.getElementById('Jono').innerHTML = jono;
 }
