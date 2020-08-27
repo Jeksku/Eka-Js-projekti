@@ -1,41 +1,17 @@
-# Eka-Js-projekti
-<p>Anna 1. luku: </p>
-      <input type= "text" id="eka" value="">
-      <p>Anna 2. luku: </p>
-      <input type= "text" id="toka" value="">
-      <button type= "button" onclick ="vertaile()">Vertaile</button>
-      <button type= "button" onclick = "laskeYhteen()">Laske yhteen</button>
-      <button type= "button" onclick ="kerro()">Kerro</button>
-      <button type= "button" onclick ="jaa()">Jaa</button>
-      <button type= "button" onclick ="Nro2()">Anna 2. numero:</button>
-      <button type= "button" onclick ="Nro3()">Anna 3. numero:</button>
-      
- 
-
-<p>Anna 1. luku: </p>
-      <input type= "text" id="eka" value="">
-      <p>Anna 2. luku: </p>
-      <input type= "text" id="toka" value="">
-      <p>Anna 3. luku: </p>
-      <input type= "text" id="kolmas" value="">
-      <button type= "button" onclick ="JärjestäLuvut()">Järjestä luvut</button>
-      
-      <form>
-      <p>Anna 1. luku: </p>
-      <input type= "text" id="eka" value="">
-      <p>Anna 2. luku: </p>
-      <input type= "text" id="toka" value="">
-      <p>Anna 3. luku: </p>
-      <input type= "text" id="kolmas" value="">
-      <button type= "button" onclick ="JarjestaLuvut()">Järjestä luvut</button>
-    </form>
-    
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src = "Pteht2.js"></script>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1></h1>
     <form>
-      <p>Anna 1. luku: </p>
-      <input type= "text" id="eka" value="">
-      <p>Anna 2. luku: </p>
-      <input type= "text" id="toka" value="">
-      <p>Anna 3. luku: </p>
-      <input type= "text" id="kolmas" value="">
-      <button type= "button" onclick ="ValitseKieli()">Käännä</button>
+        <p></p>
+            <input type= "text" id="" value="">
+        <button type= "button" onclick= ""></button>
     </form>
+  </body>
+</html>
+    
