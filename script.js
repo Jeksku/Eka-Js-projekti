@@ -77,16 +77,16 @@ do
 }while(i < 10);
 */
 function Tili(tilinro, etunimi, sukunimi, saldo){
-    this.tilinro = tilinro
-    this.etunimi = etunimi
-    this.sukunimi = sukunimi
-    this.saldo = saldo
+    this.tilinro = tilinro;
+    this.etunimi = etunimi;
+    this.sukunimi = sukunimi;
+    this.saldo = saldo;
 
     this.tiedot = NaytaTiedot;
 }
 
-var Erkki = new Tili('390201-532', 'Erkki', 'Perhonen', '654')
-var Pirkko = new Tili('42323-643', 'Pirkko', 'Perhonen', '312')
+var Erkki = new Tili('390201-532', 'Erkki', 'Perhonen', '654');
+var Pirkko = new Tili('42323-643', 'Pirkko', 'Perhonen', '312');
 
 function NaytaTeidot(){
     var tilinro = this.tilinro;
@@ -94,7 +94,29 @@ function NaytaTeidot(){
     var sukunimi = this.sukunimi;
     var ika = this.saldo;
 
-    document.write('Henkilön tilinumero on ' + tilinro + ' ja nimi on ' + etunimi + ' ' + sukunimi + ' ja hänen saldo on ' + ika + ' e.')
+    document.write('Henkilön tilinumero on ' + tilinro + ' ja nimi on ' + etunimi + ' ' + sukunimi + ' ja hänen saldo on ' + ika + ' e.');
 }
-Erkki.tiedot();  "Henkilön tilinumero on 390201-532 ja nimi on Erkki Perhonen ja hänen saldo on 654 e."
-Pirkko.tiedot(); "Henkilön tilinumero on 42323-643 ja nimi on Pirkko Perhonen ja hänen saldo on 312 e."
+Erkki.tiedot();  "Henkilön tilinumero on 390201-532 ja nimi on Erkki Perhonen ja hänen saldo on 654 e.";
+Pirkko.tiedot(); "Henkilön tilinumero on 42323-643 ja nimi on Pirkko Perhonen ja hänen saldo on 312 e.";
+
+function talleta(summa){
+var saldo = this.saldo;
+var summa = summa;
+saldo += summa;
+document.write("Uusi saldo on: " + saldo);
+}
+
+function otaRahaa(summa){
+    var saldo = this.saldo;
+    var summa = this.summa;
+    
+    if (summa <= saldo){
+    saldo -= summa;
+    }
+
+    else {
+        document.write ("Sinulla ei ole riittävästi rahaa tilillä");
+    }
+    document.write("Uusi saldo on: " + saldo);
+    
+}
