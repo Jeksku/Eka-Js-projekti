@@ -19,7 +19,7 @@ function Annakortit(){
         }
     }
     var kortit = [''];
-    for(m = 0; m < 5; m++){
+    for(var m = 0; m < 5; m++){
 
         temp = kasi(Math.floor(Math.random()*52));
         kortit[m] = temp;
