@@ -18,7 +18,6 @@ function Annakortit(){
             }
         }
     }
-    console.log(kasi);
     var kortit = [''];
     for(var m = 0; m < 5; m++){
 
