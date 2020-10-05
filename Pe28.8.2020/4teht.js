@@ -4,7 +4,7 @@ function Annakortit(){
     var nrot = ['A','2','3','4','5','6','7','8','9','10','J','Q','K'];
     laskuri = 0;
 
-    for(K = 0; < maat.length; K++) {
+    for(K = 0; K < maat.length; K++) {
 
         for(L = 0; nrot.length; L++){
 
@@ -18,10 +18,10 @@ function Annakortit(){
             }
         }
     }
-    var kortit = [];
+    var kortit = [''];
     for(m = 0; m < 5; m++){
 
-        temp = kasi[Math.floor(Math.random()*52];
+        temp = kasi(Math.floor(Math.random()*52));
         kortit[m] = temp;
     }
     document.getElementById('kasi').innerHTML = '<p>' + kortit + '</p>'
