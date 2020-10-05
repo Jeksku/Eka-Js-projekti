@@ -24,5 +24,5 @@ function Annakortit(){
         temp = kasi(Math.floor(Math.random()*52));
         kortit[m] = temp;
     }
-    document.getElementById('kasi').innerHTML = '<p>' + kortit + '</p>'
+    document.getElementById('kasi').innerHTML = kortit;
 }
