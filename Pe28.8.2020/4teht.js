@@ -13,8 +13,8 @@ function Annakortit(){
             }
 
             else{
-                kasi[laskuri] = maat[K]+nrot[L]
-                laskuri++
+                kasi[laskuri] = maat[K]+nrot[L];
+                laskuri++;
             }
         }
     }
