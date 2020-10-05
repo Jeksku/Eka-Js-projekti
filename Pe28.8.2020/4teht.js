@@ -4,9 +4,9 @@ function Annakortit(){
     var nrot = ['A','2','3','4','5','6','7','8','9','10','J','Q','K'];
     laskuri = 0;
 
-    for(K = 0; K < maat.length; K++) {
+    for(var K = 0; K < maat.length; K++) {
 
-        for(L = 0; nrot.length; L++){
+        for(var L = 0; nrot.length; L++){
 
             if(K == maat.length-1 && L == nrot.length-1){
                 kasi[laskuri] = maat[K] + nrot[L];
