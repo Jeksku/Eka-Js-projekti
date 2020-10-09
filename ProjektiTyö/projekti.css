@@ -1,17 +1,52 @@
-body{/*Taustakuva*/
-    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/disco-dba865f1.png);
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    animation: ekaanimaatio 20s infinite;
+}
+
+@keyframes ekaanimaatio {
+    0% {background-color: red;}
+    25%{background-color:orange;}
+    50%{background-color:green;}
+    75%{background-color:blue;}
+    100% {background-color: red;}
 }
 
 h1{
-    font-size: 60px;
+    font-size : 50px; 
+    color: white;
+}
+
+.otsikko{
+    background-color: #D3D3D3;
+    border: 1px solid white;
+    padding: 30px 50px;
     text-align: center;
 }
 
-.kello{/*Itse kellon ulkonäkö*/
+.keskus{/*Itse keskuksen (kellon ja valikon) ulkonäkö*/
     font-size: 80px;
+    color: white;
     letter-spacing: 10px;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    background-color: #D3D3D3;
+    border: 1px solid black;
+}
+
+.valikko{
+    top: 53%;
+    left: 60%;
+    position: absolute;
+}
+
+.teksti{
+    background-color: #D3D3D3;
+    border: 1px solid black;
+    top: 49%;
+    left: 60%;
     position: absolute;
 }

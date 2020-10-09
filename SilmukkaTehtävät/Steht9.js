@@ -1,4 +1,3 @@
-function etsiPjaS(){
     var eka, toka, kolmas, neljas, viides;
     eka = document.getElementById('eka').value;
     toka = document.getElementById('toka').value;
@@ -7,4 +6,3 @@ function etsiPjaS(){
     viides = document.getElementById('viides').value;
 
     
-}
