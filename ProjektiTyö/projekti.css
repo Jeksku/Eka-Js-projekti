@@ -2,14 +2,14 @@ body {
     padding: 0;
     margin: 0;
     height: 100%;
-    animation: myanimation 20s infinite;
+    animation: ekaanimaatio 20s infinite;
 }
 
-@keyframes myanimation {
+@keyframes ekaanimaatio {
     0% {background-color: red;}
-    25%{background-color:yellow;}
+    25%{background-color:orange;}
     50%{background-color:green;}
-    75%{background-color:brown;}
+    75%{background-color:blue;}
     100% {background-color: red;}
 }
 
@@ -25,7 +25,7 @@ h1{
     text-align: center;
 }
 
-.kello{/*Itse kellon ulkonäkö*/
+.keskus{/*Itse keskuksen (kellon ja valikon) ulkonäkö*/
     font-size: 80px;
     color: white;
     letter-spacing: 10px;
@@ -35,4 +35,18 @@ h1{
     position: absolute;
     background-color: #D3D3D3;
     border: 1px solid black;
+}
+
+.valikko{
+    top: 53%;
+    left: 60%;
+    position: absolute;
+}
+
+.teksti{
+    background-color: #D3D3D3;
+    border: 1px solid black;
+    top: 49%;
+    left: 60%;
+    position: absolute;
 }

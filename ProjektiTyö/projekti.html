@@ -6,12 +6,21 @@
     <meta charset="utf-8">
     <title></title>
   </head>
-  <body onload = "kellonAika()">
+  <body>
     <div class = "otsikko">
     <h1>Digitaalinen kello</h1>
   </div>
     <form>
-      <div id= "kellonAlue" class = "kello"></div>
+      <div id= "kellonAlue" class = "keskus"></div>
+      <p class = "teksti">Valitse maa:</p>
+        <select id= "maat" class = "valikko" onchange="kellonAika()">
+          <option></option>
+          <option value ="Suomi">Suomi</option>
+          <option value ="Islanti">Islanti</option>
+          <option value ="Amerikka">Amerikka</option>
+          <option value ="Venaja">Venäjä</option>
+          <option value ="Japani">Japani</option>
+        </select>
     </form>
   </body>
 </html>
