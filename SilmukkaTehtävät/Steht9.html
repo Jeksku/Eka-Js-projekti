@@ -2,15 +2,30 @@
 <html lang="en" dir="ltr">
   <head>
     <script src = "Steht9.js"></script>
+    <link href="Steht9.css" rel="stylesheet">
     <meta charset="utf-8">
     <title>SilmukkaTehtävät</title>
   </head>
   <body>
-    <h1></h1>
     <form>
-      <p></p>
-      <button type="button" onclick="">Tulosta</button>
+      <div id = "turha" class = "joku-grid">
+      <h1>Teht 9</h1>
+      <p>Tämä ohjelma etsii suurimman ja pienimmän luvun</p>
+
+      <p>Anna 1. luku:</p>
+      <input type= "text" id="eka" value = "">
+      <p>Anna 2. luku:</p>
+      <input type= "text" id="toka" value = "">
+      <p>Anna 3. luku:</p>
+      <input type= "text" id="kolmas" value = "">
+      <p>Anna 4. luku:</p>
+      <input type= "text" id="neljas" value = "">
+      <p>Anna 5. luku:</p>
+      <input type= "text" id="viides" value = "">
+
+      <button type="button" onclick="etsiPjaS()">Tulosta</button>
       <div id="rivi"></div>
+      </div>
     </form>
   </body>
 </html>
